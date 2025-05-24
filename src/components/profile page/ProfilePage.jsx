@@ -21,7 +21,7 @@ export const ProfilePage = () => {
 
 
         <div className="Name_email">
-          <h2>Marry</h2>
+          <h2>Marry kom</h2>
           <h2>Marry@gmail.com</h2>
         </div>
       </div>
