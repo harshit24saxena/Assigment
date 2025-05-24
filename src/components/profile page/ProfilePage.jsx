@@ -1,11 +1,7 @@
-import { useEffect } from "react";
+
 import "./ProfilePage.css";
 
 export const ProfilePage = () => {
-  useEffect(()=>{  
-    const data = JSON.parse(localStorage.getItem('PD'))
-    console.log(data);
-  })
     
   return (
     <div className="container_profile">
@@ -21,7 +17,7 @@ export const ProfilePage = () => {
 
 
         <div className="Name_email">
-          <h2>Marry kom</h2>
+          <h2>Marry</h2>
           <h2>Marry@gmail.com</h2>
         </div>
       </div>
