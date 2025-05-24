@@ -2,6 +2,8 @@ import "./ProfilePage.css";
 
 export const ProfilePage = () => {
     const data = JSON.parse(localStorage.getItem('PD'))
+    console.log(data);
+    
   return (
     <div className="container_profile">
       <h1>Account settings</h1>
@@ -16,8 +18,8 @@ export const ProfilePage = () => {
 
 
         <div className="Name_email">
-          <h2>{data.Name}</h2>
-          <h2>{data.Email}</h2>
+          <h2>Marry</h2>
+          <h2>xxx</h2>
         </div>
       </div>
       <p>
