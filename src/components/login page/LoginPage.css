@@ -59,11 +59,11 @@
   margin-top: 20px;
   margin-left: 60px;  
 }
-@media (max-width:400px) {
+@media (max-width:500px) {
 .container_login{
-  width: 95vw;
+  width: 90vw;
 }
-.container_login span{
+.container_login span, h1{
   margin-left: 5vw;
 }
 .container_login input:not([type="checkbox"]), span{  

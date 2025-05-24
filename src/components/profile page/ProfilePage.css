@@ -8,7 +8,8 @@ img{
 .underline{
     width: 90%;
     justify-self: center;
-    height: 2px;background-color: var(--secondary_color);
+    height: 2px;
+    background-color: var(--secondary_color);
     opacity: .5;
 }
 .icon{
@@ -32,8 +33,6 @@ img{
     padding: 0 1rem;
 }
 .container_profile  h1{
-    background-color: aliceblue;
-    border-radius: 10px;
     padding: .5rem ;
     margin: 0;
 }
@@ -56,4 +55,19 @@ img{
     font-weight: 200;
     margin: .5rem;
     }
+}
+@media (max-width: 500px){
+    .container_profile{
+        width: 85vw;
+        h1{
+            font-size:x-large ;
+        }
+    }
+    .Name_email{
+        margin: 1rem 0;
+    }
+    .personal_detail{
+        gap: .5rem;
+    }
+
 }

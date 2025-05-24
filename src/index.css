@@ -7,7 +7,7 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 body{
-  background: linear-gradient(180deg, #f4dbff 20%, #c2c5ff 50%);
+ background-color: #cebafb;
 }
 
 input:not([type="checkbox"]) {
@@ -35,7 +35,7 @@ button:hover{
     scale: 1.05;  
     transition: transform 300ms ease, scale 300ms ease ;
 }
-@media (max-width:400px) {
+@media (max-width:500px) {
   button{
     width: 90%;
     margin: .5rem 1rem;
