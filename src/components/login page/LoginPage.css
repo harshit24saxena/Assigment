@@ -11,17 +11,18 @@
         margin-bottom: 2rem;
     }
     input:not([type="checkbox"]), span{  
-        margin-left: 60px;
+        margin-left: 30px;
     }
     span{
         margin-bottom: .5rem;
     }
 }
+
 .checkBox_div{
     p{
         margin: 0;
         padding: 0;
-        padding-left: 60px;
+        padding-left: 30px;
     }
 }
 .custom-checkbox input {
@@ -58,4 +59,17 @@
   margin-top: 20px;
   margin-left: 60px;  
 }
-
+@media (max-width:400px) {
+.container_login{
+  width: 95vw;
+}
+.container_login span{
+  margin-left: 5vw;
+}
+.container_login input:not([type="checkbox"]), span{  
+        margin-left: 5vw;
+    }
+.CreateAccount_button{
+  margin: .5rem auto;
+}
+}

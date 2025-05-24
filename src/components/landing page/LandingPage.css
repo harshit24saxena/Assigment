@@ -8,6 +8,9 @@
     align-items: center;
     background-color: aliceblue;
     border-radius: 25px;
+    a{
+        width: 400px;
+    }
 }
 span{
     color: #6c25ff;
@@ -23,6 +26,18 @@ p{
     background: none;
     background-color: var(--accent_color); 
     color: black;
+}
+
+@media (max-width: 400px) {
+    .container_div{
+        width: 95vw;
+        a{
+            width: 100%;
+        }
+    }
+    p{
+        padding:.5rem 2rem 3rem;
+    }
 }
 
 

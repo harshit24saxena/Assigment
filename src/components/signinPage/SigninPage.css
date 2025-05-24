@@ -21,11 +21,11 @@
     span{
         align-self: start;
         font-size: medium;
-        margin-left: 60px;
+        margin-left: 30px;
     }
     
     button{
-        width: 80%;
+        width: 90%;
     }
 }
 .regis_Link{
@@ -35,4 +35,12 @@
         text-decoration: none;
     }
 
+}
+@media (max-width: 425px) {
+    .container_signin{
+        width: 90vw;
+        input{
+            margin-bottom: 1rem;
+        }
+    }
 }

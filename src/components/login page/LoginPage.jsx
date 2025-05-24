@@ -20,7 +20,7 @@ export const LoginPage = () => {
       !PD.Password ||
       !PD.CompanyName
     ) {
-      console.log("field is missing");
+      ''
     } else {
       navigate("/profile");
     }

@@ -6,19 +6,21 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-html {
-  background: linear-gradient(270deg, #f4dbff 0%, #c2c5ff 60%);
+body{
+  background: linear-gradient(180deg, #f4dbff 20%, #c2c5ff 50%);
 }
+
 input:not([type="checkbox"]) {
-  width: 80%;
+  width: 90%;
   height: 50px;
   border-radius: 10px;
   border: 1px rgb(191, 187, 187) solid;
   margin-bottom: 2rem;
 }
-input::placeholder {
+input::placeholder{
   padding-left: 10px;
-}button{
+}
+button{
     width: 400px;
     height: 50px;
     margin:  .5rem;
@@ -32,4 +34,10 @@ button:hover{
     transform: translate(-2px, -2px );
     scale: 1.05;  
     transition: transform 300ms ease, scale 300ms ease ;
+}
+@media (max-width:400px) {
+  button{
+    width: 90%;
+    margin: .5rem 1rem;
+  }
 }
