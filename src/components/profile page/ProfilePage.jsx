@@ -1,7 +1,11 @@
-
+import { useEffect } from "react";
 import "./ProfilePage.css";
 
 export const ProfilePage = () => {
+  useEffect(()=>{  
+    const data = JSON.parse(localStorage.getItem('PD'))
+    console.log(data);
+  })
     
   return (
     <div className="container_profile">
