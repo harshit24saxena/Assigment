@@ -1,0 +1,35 @@
+:root {
+  --primary_color: #6c25ff;
+  --secondary_color: #555454;
+  --accent_color: #cebafb;
+  --bg_color: aliceblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+html {
+  background: linear-gradient(270deg, #f4dbff 0%, #c2c5ff 60%);
+}
+input:not([type="checkbox"]) {
+  width: 80%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px rgb(191, 187, 187) solid;
+  margin-bottom: 2rem;
+}
+input::placeholder {
+  padding-left: 10px;
+}button{
+    width: 400px;
+    height: 50px;
+    margin:  .5rem;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: medium;
+    background: linear-gradient(90deg, #e3bafb 0% ,#6c25ff 40% );
+}
+button:hover{
+    transform: translate(-2px, -2px );
+    scale: 1.05;  
+    transition: transform 300ms ease, scale 300ms ease ;
+}

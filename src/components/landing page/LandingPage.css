@@ -1,0 +1,28 @@
+
+.container_div{
+    margin: 5rem auto;
+    padding: 5rem 0;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+span{
+    color: #6c25ff;
+}
+
+p{
+    padding:.5rem 7rem 3rem;
+    font-size: large;
+    color: var(--secondary_color);
+}
+
+.signin{
+    background: none;
+    background-color: var(--accent_color); 
+    color: black;
+}
+
+
